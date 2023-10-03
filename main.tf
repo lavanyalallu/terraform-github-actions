@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "new_bucket" {
-  bucket = "lava-demo-github-action-tf-medium"
+  bucket = "lavanya-demo-github-action-tf-medium"
 
   object_lock_enabled = false
 
